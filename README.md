@@ -1,5 +1,7 @@
 ProxySQL / PXC lab
 ==================
+lab_proxysql "select * from foo.bar;"
+
 
 # Setup
 

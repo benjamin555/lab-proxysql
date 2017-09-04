@@ -38,9 +38,9 @@ proxysql:
     - node2
   environment:
     - CLUSTER_NAME=test
-    - MYSQL_ROOT_PASSWORD=init1234
+    - MYSQL_ROOT_PASSWORD=toor
     - MYSQL_PROXY_USER=user
-    - MYSQL_PROXY_PASSWORD=proxy1234
+    - MYSQL_PROXY_PASSWORD=pass
     - DISCOVERY_SERVICE=false
   expose:
     - "6032"
