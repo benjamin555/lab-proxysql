@@ -53,3 +53,4 @@ proxysql:
     - "2345:2345"
   volumes:
     - "./proxysql_galera_checker.sh:/usr/local/bin/proxysql_galera_checker.sh"
+    - "./etc/proxysql.cnf:/etc/proxysql.cnf"
