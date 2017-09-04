@@ -3,7 +3,7 @@ datadir="/var/lib/proxysql"
 admin_variables =
 {
         admin_credentials="admin:admin"
-        mysql_ifaces="192.168.0.1:6032"
+        mysql_ifaces="121.42.182.236:6032"
         refresh_interval=2000
 }
 
